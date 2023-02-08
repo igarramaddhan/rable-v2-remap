@@ -27,11 +27,11 @@
 
         arrow_layer {
             bindings = <
-&trans  &kp GRAVE  &trans    &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
-&trans     &trans  &trans    &trans    &kp UP     &trans  &trans  &trans  &trans  &trans  &trans    &trans     &kp UP     &trans  &trans  &trans
-&trans     &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp RIGHT     &trans  &trans
-&trans     &trans  &trans    &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp DOWN  &kp RCTRL  &trans  &trans
-&trans     &trans  &trans    &trans    &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &kp GRAVE  &trans    &trans    &trans     &trans  &trans  &trans         &trans      &trans       &trans         &trans     &trans     &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
+&trans     &trans  &trans    &trans    &kp UP     &trans  &trans  &trans         &trans      &trans       &trans       &kp HOME     &kp UP    &kp END             &trans           &trans
+&trans     &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans         &trans      &trans  &kp PAGE_UP       &kp LEFT  &kp RIGHT     &trans             &trans
+&trans     &trans  &trans    &trans    &trans     &trans  &trans  &trans         &trans  &kp C_MUTE       &trans  &kp PAGE_DOWN   &kp DOWN  &kp RCTRL             &trans           &trans
+&trans     &trans  &trans    &trans    &trans     &trans  &trans  &trans  &kp RIGHT_ALT      &trans
             >;
         };
 
